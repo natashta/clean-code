@@ -3,7 +3,7 @@
 body {
     background-color: #f8f8f8;
     color: #333;
-    font-family: Lato, sans-serif;
+    font-family: "Lato", Arial, sans-serif;
 }
 
 .aaa {
@@ -64,19 +64,19 @@ button {
     color: #888;
     font-size: 15px;
     width: 60px;
-    font-family: Lato, sans-serif;
+    font-family: "Lato", Arial, sans-serif;
     cursor: pointer;
 }
 
 button:hover {
-    color: #3a3A3a;
+    color: #3a3a3a;
 }
 
 
 /* Heading */
 
 h3,
-label[for='new-task'] {
+label[for="new-task"] {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -92,10 +92,10 @@ input[type="text"] {
     line-height: 18px;
     height: 21px;
     padding: 0 9px;
-    border: 1px solid #dDd;
-    background: #FFF;
+    border: 1px solid #ddd;
+    background: #fff;
     border-radius: 6px;
-    font-family: Lato, sans-serif;
+    font-family: "Lato", Arial, sans-serif;
     color: #888;
 }
 
@@ -106,7 +106,7 @@ input[type="text"]:focus {
 
 /* New Task */
 
-label[for='new-task'] {
+label[for="new-task"] {
     display: block;
     margin: 0 0 20px;
 }
@@ -116,7 +116,7 @@ input#new-task {
 }
 
 p>button:hover {
-    color: #0FC57C;
+    color: #0fc57c;
 }
 
 
@@ -151,7 +151,7 @@ li>input[type="text"] {
 }
 
 li>button.delete:hover {
-    color: #CF2323;
+    color: #cf2323;
 }
 
 button.delete img {
@@ -168,7 +168,8 @@ button.delete img:hover {
 /* Completed */
 
 ul#completed-tasks label {
-    text-decoration: line-through color: #888;
+    text-decoration: line-through;
+    color: #888;
 }
 
 
