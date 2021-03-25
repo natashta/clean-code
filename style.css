@@ -27,7 +27,7 @@ body {
     }
 }
 
-.centered-main-page-element {
+.center-element {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -39,7 +39,7 @@ body {
     flex-grow: 1
 }
 
-.task-row-wrapper {
+.row-wrapper {
     display: flex;
 }
 
