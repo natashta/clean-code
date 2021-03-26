@@ -31,5 +31,6 @@
             "htm",
             "html"
         ]
-    }
+    },
+    "editor.formatOnSaveMode": "modifications"
 }
