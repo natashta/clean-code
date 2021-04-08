@@ -164,14 +164,12 @@ li>input[type="text"] {
   transform: rotateZ(0);
 }
 
-
 /* Completed */
 
 .complete-tasks label {
   text-decoration: line-through;
   color: #888;
 }
-
 
 /* Edit Task */
 
